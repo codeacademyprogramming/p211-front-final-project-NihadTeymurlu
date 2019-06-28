@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.headerSec{
+    background-color: black
+}
+.headerSec i, .headerSec p {
+    color: white;
+}
+.bgHolder{
+    position: relative;
+    height: 23rem;
+}
+.bgHolder img{
+    width: 100%;
+    height: 100%;
+}
+.content {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.navbar{
+    display: flex;
+    list-style-type: none;
+}
+.navbar li {
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+}
+.form{
+   margin: 5rem auto 5rem;
+    width: 800px;
+}
+.total{
+    background-color: rgba(0,0,0,.05);
+    padding: 2.4rem;
+    border-radius: 1px;
+}
+.btn{
+    background-color: orange;
+    padding: 0.4rem;
+    width: 100%;
+    border-radius: 50px;
+    color: white;
+    transition: all 0.2s;
+}
+.btn:hover{
+    background-color: white;
+    color: orange;
+    border-color: orange;
+}

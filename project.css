@@ -1,0 +1,522 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.up{
+    background-color: black;
+    padding: 3px;
+    color: white;
+}
+
+.up1{
+    margin-left: 105px;
+    font-size: 0.7em;
+
+}
+.phone{
+    margin-right: 4px;
+    font-size: 0.8em
+}
+.up2{
+    margin-left: 250px;
+    font-size: 0.7em;
+
+}
+.telegram{
+    margin-right: 6px;
+    font-size: 1.2em;
+
+}
+
+
+.up3{
+    font-size: 0.9em;
+    margin-left: 150px;
+}
+
+
+.container.veryfirst{
+    height: 10vh;
+
+
+
+}
+.col-6{
+    margin-top: 15px;
+}
+
+
+.winkel{
+    font-weight: 800;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: black;
+    text-decoration: none;
+    margin-left: -38px;
+    
+}
+.winkel:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.col-6 ul li{
+    list-style-type: none;
+    font-size: 0.7em;
+
+}
+
+.ulli {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+.col-6 li{
+    text-decoration: none;
+    color: black;
+}
+.col-6 li:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.menu{
+    margin-top: 20px;
+}
+
+.ulli{
+    padding-left: 7px;
+    margin-top: 37px;
+    z-index: 0;
+    background-color: #fff;
+    display: none
+}
+.shop a:hover .ulli{
+    display: block;
+    /* z-index: 0; */
+}
+
+
+/* .col-6.shop a:hover .owl-carousel{
+    z-index: -1;
+} */
+
+
+
+
+
+
+
+
+.menu a{
+    font-size: 11px;
+}
+.ulli a{
+    font-size: 12px;
+
+}
+
+
+
+.owl-carousel {
+    font-family: 'Open Sans', sans-serif;            
+    overflow: hidden;
+    z-index: -1;
+
+}
+
+.owl-carousel img {
+    max-height: 800px;  
+}
+
+.owl-carousel .ecommerceShop {
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+}
+
+
+.owl-carousel .ecommerceShop::after {
+    position: absolute;
+    bottom: -15px;
+    left: 0px;
+    width: 100px;
+    height: 1px;
+    background: #1a1a1a;
+    content: '';
+}
+
+.owl-carousel h1 {
+    font-weight: 300;
+    font-size: 44px;
+}
+
+.owl-carousel h1 span {
+    font-weight: 900;
+}
+.owl-carousel p {
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 16px;
+    line-height: 1.8;
+}
+.btn.btn-primary {
+    width: 200px;
+    background: #ffa45c;
+    border: 1px solid #ffa45c;
+    color: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+    font-size: 1rem;
+
+}
+
+.btn.btn-primary:hover{
+    background-color: #fff;
+    color: #ffa45c
+}
+
+
+.col-6 a{
+    text-decoration: none;
+    color: black;
+}
+
+.col-6.shop a{
+    font-size: 2em;
+
+}
+#gray{
+    background-color: rgb(240, 240, 240);
+    height: 230vh;
+}
+.col-4.bg{
+    background-image: url('about.webp');
+    height: 100vh;
+}
+
+
+.better{
+    font-size: 49px;
+    margin-top: 50px;
+}
+.col-8 p{
+    margin-top: 35px;
+
+}
+.col-8{
+    padding: 3rem;
+}
+
+p{
+    color: rgba(0, 0, 0, 0.8);
+
+}
+
+.refund{
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+.premium{
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+.superior{
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+.tablets p{
+    width: 190px;
+
+}
+#bestsellers{
+    background-color:  rgb(240, 240, 240);
+}
+
+.best{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 2.2rem
+}
+.bestp{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.col-3.dollars{
+    background-color: #fff;
+}
+
+
+.col-3 img{
+    width: 100%;
+    object-fit: cover;
+
+
+}
+.img-wrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+
+.layer{
+    top: 0px;
+    left: 0;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 383px;
+
+    display: none;
+    background-color: rgba(185, 79, 52, 0.521);
+   
+}
+.col-3:hover .layer{
+    display: block;
+
+    
+}
+.col-3:hover img{
+    width: 100%;
+    transform: scale(1.1);
+    transition: all 0.3s;
+    overflow: hidden;
+
+}
+.img-wrapper{
+    overflow: hidden;
+}
+.layer{
+    overflow: hidden;
+}
+.imgHolder{
+    overflow: hidden;
+}
+
+.layer button{
+    position: absolute;
+
+
+
+}
+
+.btn1{
+    margin-left: 20px;
+    top: 85%;
+    padding: 9px 5px;
+    font-size: 13px;
+    background-color: black;
+    color: white;
+    border: black
+}
+
+.btn2{
+    margin-left: 130px;
+    top: 85%;
+    padding: 9px 17px;
+    font-size: 13px;
+    border: white;
+}
+
+
+
+.btn1:hover{
+    background-color: #ffa45c;
+    border: #ffa45c;
+    transition: all 0.2s
+
+}
+.btn2:hover{
+    background-color: #ffa45c;
+    border: #ffa45c;
+    color: white;
+    transition: all 0.2s
+
+}
+
+
+.floral{
+    font-size: 15px;
+    padding: 1.2rem;
+    margin-top: -80px;
+    background-color: #fff;
+
+}
+
+.price{
+    padding: 1.4rem;
+    font-size: 13px;
+    margin-top: -14px;
+    background-color: #fff;
+}
+
+
+.col-4 img{
+    height: 100%;
+    width: 160%
+}
+
+.faraway{
+    font-size: 16px;
+    width: 590px;
+    max-width: 300px;
+    
+}
+
+.new{
+    width: 480px;
+    margin-top: 60px;
+}
+
+.shopbtn{
+    padding: 18px 27px;
+    border-radius: 40px;
+    border: white;
+    background-color: #fff;
+    font-size: 15px;
+}
+
+.shopbtn:hover{
+    background-color: #ffa45c;
+    color: white;
+    transition: all 0.2s
+}
+.col-8.first{
+    margin-top: 20px;
+    left: 150px;
+    
+}
+
+.new2{
+    margin-left: -34px;
+    width: 600px;
+    /* margin-top: 50px; */
+}
+
+.far2{
+    margin-left: -34px;
+    width: 600px;
+}
+.shopbtn2{
+    margin-left: -34px;
+    margin-top: 15px;
+    padding: 18px 27px;
+    border-radius: 40px;
+    border: white;
+    background-color: #fff;
+    font-size: 15px;
+
+}
+
+.shopbtn2:hover{
+    background-color: orange;
+    color: white;
+    transition: all 0.2s
+
+}
+
+
+.col-4.image img{
+    width: 730px;
+    height: 75vh;
+    object-fit: cover;
+
+}
+
+.col-4.image2 img{
+    width: 430px;
+    height: 78vh;
+    object-fit: cover;
+    vertical-align: middle
+
+
+}
+
+.col-4.image2{
+    left: -90px;
+    top: -60px;
+}
+
+
+#products{
+    background-color:  rgb(240, 240, 240);
+    height: 130vh;
+    
+}
+
+.h2{
+    text-align: center;
+    padding-top: 120px;
+
+}
+
+.icon{
+    color: #ffa45c
+    
+}
+
+
+#customers{
+    height: 50vh;
+}
+
+.happycus img{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    background-color: rgba(255, 255, 255, 0.479);
+    z-index: 0;
+}
+
+
+.rowimg{
+    z-index: 1;
+    margin-top: -200px;
+    text-align: center
+}
+
+
+.happyp{
+    background-color: none;
+}
+
+
+
+#subscribe{
+    height: 30vh;
+}
+
+.head2{
+    text-align: center;
+    margin-top: 90px;
+    color: rgba(0, 0, 0, 0.959);
+
+
+}
+
+.submit{
+    padding: 10px 15px;
+}
+
+
+.email-input{
+    padding: 12px 20px
+}
